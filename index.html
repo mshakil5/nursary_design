@@ -60,6 +60,56 @@
 }
 
 
+    /* food card  */
+    .menu-title {
+      text-align: center;
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: #123456;
+      margin-bottom: 40px;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      justify-content: center;
+    }
+
+    .menu-card {
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      padding: 15px;
+      transition: transform 0.3s ease;
+    }
+
+    .menu-card:hover {
+      transform: translateY(-8px);
+    }
+
+    .menu-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .week-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: #123456;
+      margin-top: 8px;
+    }
+
+    /* Different Backgrounds */
+    .bg1 { background-color: #eafbea; }   /* light green */
+    .bg2 { background-color: #ffe6e6; }   /* light pink */
+    .bg3 { background-color: #fff0f5; }   /* light rose */
+    .bg4 { background-color: #e6fff9; }   /* light aqua */
+
+
 </style>
 
 
@@ -403,6 +453,39 @@
       </div>
     </div>
   </section>
+
+
+  <section class=" py-5 position-relative">
+      <div class="container">
+        <h2 class="menu-title">Weekly Food Menu</h2>
+
+      <div class="menu-grid">
+        <div class="menu-card bg1">
+          <img src="https://angelinasdaycare.co.uk/wp-content/uploads/2023/08/3-Peanut-butter-and-jelly-sandwich.jpg" alt="Week 1">
+          <div class="week-title">Week 1</div>
+        </div>
+
+        <div class="menu-card bg2">
+          <img src="https://angelinasdaycare.co.uk/wp-content/uploads/2023/08/5-pizza.jpg" alt="Week 2">
+          <div class="week-title">Week 2</div>
+        </div>
+
+        <div class="menu-card bg3">
+          <img src="https://angelinasdaycare.co.uk/wp-content/uploads/2023/08/4-tacos.jpg" alt="Week 3">
+          <div class="week-title">Week 3</div>
+        </div>
+
+        <div class="menu-card bg4">
+          <img src="https://angelinasdaycare.co.uk/wp-content/uploads/2023/08/6-Chicken-nuggets.jpg" alt="Week 4">
+          <div class="week-title">Week 4</div>
+        </div>
+      </div>
+      </div>
+  </section>
+
+
+
+
 
 
   <!-- ===== Facilities / Features Section ===== -->
