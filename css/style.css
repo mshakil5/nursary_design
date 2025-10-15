@@ -428,7 +428,7 @@
 
 
   /* Callback section background & card */
-  #callback { position: relative; overflow: visible; }
+  #callback { position: relative; overflow: visible; background-color: #fff7f3; }
   .callback-bg { position:absolute; inset:0; top: -6%; left:0; right:0; height:100%; pointer-events:none; z-index:0; opacity:0.95; }
   .callback-card { overflow:hidden; z-index:2; }
   .callback-card .row { min-height: 420px; }
