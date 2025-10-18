@@ -3,27 +3,38 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nursery — Template</title>
+  <title>SunnyNursery - Top Rated Childcare in Colchester | Early Years Learning</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="SunnyNursery offers outstanding childcare and early years education in Colchester. OFSTED rated, qualified staff, and age-specific learning programmes for 3 months to 5 years.">
+  <meta name="keywords" content="nursery, childcare, early years, preschool, daycare, Colchester, Essex">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="SunnyNursery - Top Rated Childcare in Colchester">
+  <meta property="og:description" content="Outstanding childcare and early years education in Colchester. OFSTED rated with qualified staff.">
+  <meta property="og:image" content="https://sunnynursery.co.uk/images/og-image.jpg">
+  <meta property="og:url" content="https://sunnynursery.co.uk">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SunnyNursery Colchester">
+  <meta name="twitter:description" content="Outstanding childcare and early years education in Colchester. OFSTED rated.">
+  <meta name="twitter:image" content="https://sunnynursery.co.uk/images/twitter-card.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 
   <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- ===== optional: include Bootstrap Icons (if not already) ===== -->
+  <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 
   <!-- Swiper CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
   <link rel="stylesheet" href="css/style.css">
-
-
-  <style>
-
-
-</style>
-
-
 
 </head>
 <body>
@@ -36,7 +47,7 @@
   <div class="container">
     <!-- Logo -->
     <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="images/logo.jpg" alt="Logo" height="60">
+      <img src="images/logo.jpg" alt="SunnyNursery Colchester Logo" height="60">
     </a>
 
     <!-- Mobile Menu Button -->
@@ -1321,117 +1332,6 @@
     </div>
   </div>
 </footer>
-
-<!-- ===== Styles (paste into your main stylesheet) ===== -->
-<style>
-/* Back to top button (center bottom) */
-.back-to-top {
-  position: fixed;
-  bottom: 28px;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1050;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  border: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(180deg,#ff8b94,#ff6b88);
-  color: #fff;
-  box-shadow: 0 8px 28px rgba(255,107,136,0.18);
-  font-size: 1.1rem;
-  transition: transform 0.18s ease, opacity .18s ease;
-  opacity: 0;
-  pointer-events: none;
-}
-.back-to-top.show {
-  opacity: 1;
-  pointer-events: auto;
-}
-.back-to-top:focus { outline: 3px solid rgba(255,139,148,0.18); }
-
-/* Footer base */
-.site-footer {
-  background: linear-gradient(180deg,#fff 0%, #138946 100%);
-  position: relative;
-  margin-top: 48px;
-  color: #1f2937;
-}
-
-/* Grass SVG container */
-.footer-grass { width: 100%; height: 88px; overflow: hidden; display:block; }
-
-/* Footer body / cards */
-.site-footer .footer-body {
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-  z-index: 5;
-}
-
-/* headings */
-.footer-heading {
-  font-size: 0.95rem;
-  font-weight: 700;
-  color: #0f1724;
-  margin-bottom: .8rem;
-}
-
-/* buttons in lists */
-.footer-links .btn {
-  text-align: left;
-  padding: .35rem .75rem;
-  font-size: .9rem;
-  color: #0f1724;
-  border: 1px solid rgba(16,24,40,0.06);
-  background: #fff;
-}
-.footer-links .btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(16,24,40,0.04);
-}
-
-/* Contact circle CTA */
-.contact-circle {
-  width:64px;
-  height:64px;
-  border-radius:50%;
-  display:inline-flex;
-  align-items:center;
-  justify-content:center;
-  font-size:1.25rem;
-  background: linear-gradient(180deg,#ff8b94,#ff6b88);
-  color:#fff;
-  border:none;
-}
-
-/* Social buttons */
-.social-btn {
-  width:44px; height:44px; display:inline-flex; padding:0; align-items:center; justify-content:center;
-  color:#111827;
-  border: 1px solid rgba(16,24,40,0.06);
-}
-.social-btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 24px rgba(16,24,40,0.06);
-}
-
-/* small screens: stack nicely */
-@media (max-width: 991.98px) {
-  .footer-links .btn { font-size: .88rem; padding: .35rem .6rem; }
-  .footer-body { padding-left: 1rem; padding-right: 1rem; }
-  .footer-grass { height:58px; }
-}
-
-/* very small */
-@media (max-width: 575.98px) {
-  .contact-circle { width:56px; height:56px; }
-  .back-to-top { bottom: 18px; width:48px; height:48px; }
-}
-</style>
-
 
 
   <!-- Swiper JS -->
